@@ -38,11 +38,11 @@ span {
 }
 
 /* MAIN */
-.ms_pwd-label {
+.ms_main-window-label {
     display: inline-block;
     background-color: lightgray;
     
-    margin: 20px 0 0 10px;
+    margin: 20px 10px 0;
     padding: 3px 10px;
     border-radius: 10px 10px 0 0;
 
@@ -61,5 +61,34 @@ span {
     box-shadow: 4px 4px 2px #000000;
 }
 
+.ms_user-data-label {
+    border-bottom: 1px dashed slategray;
+}
 
+.ms_pwd-gen-label {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#insecure-password {
+    display: block;
+    font-size: 3.8rem;
+    color: #000000;
+    text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+
+    .ms_main-window-label h1 {
+        font-size: 2rem;
+    }
+    
+    .ms_pwd-gen-label {
+        font-size: 2rem;
+    }
+
+    #insecure-password {
+        font-size: 1.8rem;
+    }
+}
 

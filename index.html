@@ -18,13 +18,30 @@
 <body>
     <main>
         <div class="ms_container">
-            <div class="ms_pwd-label">
+            <div class="ms_main-window-label">
                 <h1>(in)secure password generator</h1>
                 <h4>Il generatore di password che NON vorresti</h4>
             </div>
             <div class="ms_main-window">
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum asperiores placeat consequatur eos veritatis aspernatur, voluptatibus esse voluptates reprehenderit perspiciatis sunt accusantium sequi qui minus commodi maiores odio incidunt! Incidunt!</span>
+                <div class="ms_user-data-label">
+                    Nome:
+                    <span id="user-name"></span>
+                </div>
 
+                <div class="ms_user-data-label">
+                    Cognome:
+                    <span id="user-lastname"></span>
+                </div>
+
+                <div class="ms_user-data-label">
+                    Colore preferito:
+                    <span id="user-fav-color"></span>
+                </div>
+
+                <div class="ms_pwd-gen-label">
+                    La tua password insicura è:                
+                </div>
+                <span id="insecure-password"></span>    
             </div>
         </div>
     </main>

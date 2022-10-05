@@ -17,3 +17,14 @@ const generatedPwd = userName + userLastName + userFavColor + "21"
 console.log(generatedPwd, typeof(generatedPwd));
 
 // Output
+// Put userName in span#user-name
+document.getElementById("user-name").innerHTML = userName;
+
+// Put userLastName in span#user-lastname
+document.getElementById("user-lastname").innerHTML = userLastName;
+
+// Put userFavColor in span#user-fav-color
+document.getElementById("user-fav-color").innerHTML = userFavColor;
+
+// Showing generated password
+document.getElementById("insecure-password").innerHTML = generatedPwd;
