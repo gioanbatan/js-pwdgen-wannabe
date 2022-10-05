@@ -1,11 +1,27 @@
+
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
     background-color: brown;
+}
+
+
+/* COMMON */
+h1 {
+    font-size: 2.4rem;
+}
+
+span {
+    font-size: 2rem; 
 }
 
 .ms_container {
@@ -14,3 +30,29 @@ body {
 
     margin: 0 auto;
 }
+
+.ms_pwd-label {
+    display: inline-block;
+    background-color: lightgray;
+    
+    margin: 20px 0 0 10px;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+
+    box-shadow: 4px 4px 2px #000000;
+}
+
+.ms_main-window {
+    position: relative;
+    background-color: lightgray;
+    color: slategray;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 2px #000000;
+}
+
+
+
